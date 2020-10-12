@@ -9,11 +9,23 @@
 <body>
 
   <h1>Lec02 GET!</h1>
-  HI 
+  <span>HI</span> <span th:text="${name}"></span>
+<br>
+  <a href="./lec02?hand=0">グー</a>
+  <a href="./lec02?hand=1">チョキ</a>
+  <a href="./lec02?hand=2">パー</a>
 
-  <a href="./gu-">グー</a>
-  <a href="./tyoki">チョキ</a>
-  <a href="./pa-">パー</a>
+  <p>
+    <div>
+      <a th:text="${my}"></a>
+    </div>
+    <div>
+      <a th:text="${COM}"></a>
+    </div>
+    <div>
+      <a th:text="${syouhai}"></a>
+    </div>
+    </p>
 
 </body>
 
