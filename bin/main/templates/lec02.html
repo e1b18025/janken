@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>janken game</title>
+</head>
+
+<body>
+
+  <h1>Lec02 GET!</h1>
+  <span>HI</span> <span th:text="${name}"></span>
+<br>
+  <a href="./lec02?hand=0">グー</a>
+  <a href="./lec02?hand=1">チョキ</a>
+  <a href="./lec02?hand=2">パー</a>
+
+  <p>
+    <div>
+      <a th:text="${my}"></a>
+    </div>
+    <div>
+      <a th:text="${COM}"></a>
+    </div>
+    <div>
+      <a th:text="${syouhai}"></a>
+    </div>
+    </p>
+
+</body>
+
+</html>
